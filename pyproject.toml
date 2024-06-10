@@ -23,8 +23,8 @@ networkx = ">=2.3,<4.0"
 pyyaml = "~6"
 typer = "~0"
 numpy = [
-  {version = ">=1.26", python = ">=3.12"},
-  {version = "<1.25", python = "<=3.11"}
+  {version = ">=1.26", python = ">=3.9"},
+  {version = "<1.25", python = "=3.8"}
 ]
 
 [tool.poetry.dev-dependencies]
